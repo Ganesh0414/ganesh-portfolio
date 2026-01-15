@@ -479,7 +479,7 @@ export default function Portfolio() {
                   </div>
 
                   <p className="mt-4 text-xs text-white/45">
-                    Tip: Put your photo as <b className="text-white/70">/public/profile.jpg</b> (or change the src).
+                   <b className="text-white/70"></b>
                   </p>
                 </div>
               </div>
@@ -578,6 +578,33 @@ export default function Portfolio() {
                       <li>Scalable backend architecture</li>
                     </ul>
                   </div>
+                  <br />
+<div className="flex justify-end mt-4">
+  <motion.a
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.96 }}
+    href="https://github.com/Ganesh0414/CodeAlpha_Artificial-Intelligence"
+    target="_blank"
+    rel="noreferrer"
+    className="
+      inline-flex w-fit
+      items-center gap-1
+      px-3 py-1.5
+      text-xs font-medium
+      rounded-full
+      border border-white/10
+      bg-white/5 backdrop-blur-md
+      text-white/70
+      hover:bg-white/10 hover:text-white
+      transition
+    "
+  >
+    View →
+  </motion.a>
+</div>
+
+
+
                 </div>
               </motion.div>
 
@@ -615,8 +642,34 @@ export default function Portfolio() {
                       <li>Clean command-line interface</li>
                       <li>Modular & extendable architecture</li>
                     </ul>
+                    
                   </div>
+                  <br />
+<div className="flex justify-end mt-4">
+  <motion.a
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.96 }}
+    href="https://github.com/Ganesh0414/Track_phone"
+    target="_blank"
+    rel="noreferrer"
+    className="
+      inline-flex w-fit
+      items-center gap-1
+      px-3 py-1.5
+      text-xs font-medium
+      rounded-full
+      border border-white/10
+      bg-white/5 backdrop-blur-md
+      text-white/70
+      hover:bg-white/10 hover:text-white
+      transition
+    "
+  >
+    View →
+  </motion.a>
+  </div>
                 </div>
+                
               </motion.div>
             </motion.section>
           )}
